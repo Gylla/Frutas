@@ -1,0 +1,30 @@
+.sobre{
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sobre__titulo{
+    color: #740600;
+    font-family: Pacifico, cursive;
+    font-size: 3.1875rem;
+}
+
+.sobre__descripcion{
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px ){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+
+    .sobre__descripcion{
+        font-size: 1.3rem;
+    }
+}
